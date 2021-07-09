@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "todonextjsamplify",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtodonextjsamplify8f41de63",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
